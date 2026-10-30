@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Portal</h1>
+        <p>Welcome to our Student Registration Website</p>
+    </header>
+
+    <main class="container">
+        <h2>Registration Form</h2>
+
+        <form id="registrationForm">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="course">Select Course</label>
+            <select id="course" required>
+                <option value="">Choose your course</option>
+                <option value="BCS">BCS</option>
+                <option value="MCS">MCS</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+            </select>
+
+            <button type="submit">Register Now</button>
+
+        </form>
+
+        <p id="message" role="status" aria-live="polite"></p>
+    </main>
+
+    <footer>
+        <p>© 2026 Student Portal | Created with HTML, CSS & JavaScript</p>
+    </footer>
+
+</body>
+</html>
+
